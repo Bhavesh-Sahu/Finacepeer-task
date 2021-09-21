@@ -1,0 +1,60 @@
+.primary{
+    color: orange;
+    text-align: center;
+}
+.alg{
+    text-align: center;
+}
+.lg{
+    font-size: large;
+}
+.txtal2{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+}
+.txtal{
+    text-align: center;
+    font-size: x-large;
+    
+}
+.heading{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #4CAF50;
+}
+
+.headingspan{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: blueviolet;
+}
+.primary2{
+    color: lightcoral;
+    text-align: center;
+}
+.hello{
+    color: lightslategrey;
+    text-align: center;
+}
+.bt{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.drum{
+    border: 2px solid lightblue;
+    border-radius: 4px;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
