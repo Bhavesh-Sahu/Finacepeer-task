@@ -1,10 +1,3 @@
-# Django React Auth
-
-## Overview
-
-Django React Auth is a simple user authentication demonstration that uses
-Django, and the Django Rest Framework on the backend, and React on the frontend.
-
 ## Dependencies
 
 1. Python 3.5 or greater
@@ -17,16 +10,7 @@ The project is setup using pipenv, and create-react-app. Follow these steps afte
 cloning the repository to get it up and running.
 
 1. Run the following commands in the same directory as `manage.py`:  
-   `pipenv install` and `pipenv install --dev`
+   `pip install -r requirements.txt`, `python manage.py migrate` and `python manage.py runserver`
 
-2. Next create a `local_settings.py` file inside of the `mysite` directory.
-   create 3 variables inside of it:
-
-- secret_key - this is equal to a string
-- debug - this is a boolean value (True, or False)
-- allowed_hosts - this is an array
-
-Note that `local_settings.py` is in the gitignore.
-
-3. Now run the django migrations. In the same directory as `manage.py` run:  
-   `python manage.py migrate`
+2. Run the following commands in the client directory :  
+   `npm i` and `npm start`
